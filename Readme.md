@@ -170,14 +170,14 @@ Para iniciar un contenedor basta con ejecutar el comando *run*, como
 ejemplo se iniciará un contenedor que simplemente presentará la hora en
 la pantalla.
 
-docker run jptazzo/clock
+docker run jpetazzo/clock
 
 Sin embargo, al momento de paralizar o cerrar el contenedor, éste se
 detiene y se restaura al punto inicial del arranque. Para que el
 contenedor se encuentre residente en memoria, se debe recurrir a la
 opción *-d*.
 
-docker run -d jptazzo/clock
+docker run -d jpetazzo/clock
 
 Como se mencionó, todos los contenedores en ejecución son nombrados, de
 forma inicial, con un número de identificación (ID), el cual es generado
